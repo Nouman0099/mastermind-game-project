@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastermind Color Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center h-screen bg-slate-900">
+    <div class="text-center bg-slate-700 p-6 rounded-2xl w-96">
+        <h1 class="text-3xl font-bold mb-6 text-gray-300 font-sans">Color Guessing Game</h1>
+        <div id="board" class="flex items-center flex-col mt-3 mb-5"></div>
+        <div class="flex justify-center space-x-4">
+            <button id="submitGuess" class="px-4 py-2 bg-slate-500 text-lg font-sans font-semibold text-white rounded-xl">Submit Guess</button>
+            <button id="newGame" class="px-4 py-2 bg-green-600 text-lg font-sans font-semibold text-white rounded-xl">New Game</button>
+        </div>
+    </div>
+    <script src="mastermind.js"></script>
+</body>
+</html>
